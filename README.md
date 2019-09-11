@@ -49,7 +49,7 @@ Since there was significant imbalance ine the dataset, various Image Augmentatio
 
 The metric used for the classification task was F-Measure and for predicting the bounding box around the leader the metric used was IOU.
 
-![](F-measure.png)
-![](Violence.png)
-![](caught_2.png)
+![](Images/F-measure.png)
+![](Images/Violence.png)
+![](Images/caught_2.png)
 
