@@ -6,10 +6,11 @@ Implementation of the model used in the paper Protest Activity Detection and Per
 * [Motivation](#motivation)
 * [Technologies](#technologies) 
 * [Protest Image Dataset](#protest-image-dataset )
-* [](#models)
+* [Models](#models)
+* [Results](#results)
 
 ## Motivation
-
+Due to inadequate security personnel and rising number of Protests around the globe, it becomes very dificult to contain violent protests.This problem is further compunded by the presence of protest Leaders who play crucial role in instigating the crowd and turning a peacful protest as violent. With the presnce of social media outlets, protest organization and highlighting has also become very easy. A novel automated system using machine learning is used to detect protest leader if present from protest images using Convolutional Neural Nets. In addition to it, a novel approach to calculate the degree of violence from visual attributes in the protest images is also proposed.   
 
 ![](Images/caught_1.png)
 
@@ -39,3 +40,16 @@ Since there was significant imbalance ine the dataset, various Image Augmentatio
 
 
 ![](Images/Augmentation.PNG)
+
+## Models
+
+3 models were used for soving this multifold task.The 1st model was used to filter out the protest from non-protest image. The second model was used to predict the presence of visual attributes from Protest Images. Violence score was calculated from these weighted visual attributes. The 3rd model was used to predict the presence of a protest leader and if present was used to localize the protest leader by drawing a bounding box around him.
+
+## Results
+
+The metric used for the classification task was F-Measure and for predicting the bounding box around the leader the metric used was IOU.
+
+![](F-measure.png)
+![](Violence.png)
+![](caught_2.png)
+
