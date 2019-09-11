@@ -2,7 +2,7 @@
 Implementation of the model used in the paper Protest Activity Detection and Perceived Violence Estimation from Social Media Images
 (Springers) by Dibyendu Biswas, Jyoti Prakash Singh.
 
-![alt text] (https://github.com/Dibyendu-7/Image-Protest/tree/master/Images/git_Protest.png)
+![alt text](https://github.com/Dibyendu-7/Image-Protest/tree/master/Images/git_Protest.png "Logo Title Text 1")
 
 # Technologies
 
