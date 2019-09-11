@@ -2,7 +2,7 @@
 Implementation of the model used in the paper Protest Activity Detection and Perceived Violence Estimation from Social Media Images
 (Springers) by Dibyendu Biswas, Jyoti Prakash Singh.
 
-![alt text](https://github.com/Dibyendu-7/Image-Protest/tree/master/Images/git_Protest.png "Logo Title Text 1")
+![](Images/caught_1.png)
 
 # Technologies
 
@@ -13,7 +13,13 @@ Implementation of the model used in the paper Protest Activity Detection and Per
 * Matplotlib
 * Scikit-Learn
 
-# Protest Image Dataset 35453
-The dataset consist of 23294 negative Images and 11659 positive Images of Protest. This dataset was created by UCLA and is in their private repository. A new dataset consisting of 491 images of protest containg protest Leader and Non-Protest Leader was created by me. Images with protest Leader was lablled with a bounding box drawn around the protest leader using a manual annaotaing tool. 
+# Protest Image Dataset 
+The dataset consist of 23294 negative Images and 11,659 positive Images of Protest. This dataset was created by UCLA and is in their private repository. A new dataset consisting of 491 images of protest containg protest Leader and Non-Protest Leader was created by me. Images with protest Leader was lablled with a bounding box drawn around the protest leader using a manual annaotaing tool. 
 
 ## Dataset Statistics
+# of images: 35,444
+# of protest images: 12,150
+
+### Protest & Visual Attributes
+
+![](Images/Positive_Rate.png)
