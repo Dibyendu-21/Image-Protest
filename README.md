@@ -24,7 +24,7 @@ Due to inadequate security personnel and rising number of Protests around the gl
 * Scikit-Learn
 
 ## Protest Image Dataset 
-The dataset consist of 23,294 negative Images and 11,659 positive Images of Protest. This dataset was created by UCLA and is in their private repository. A new dataset consisting of 491 images of protest containg protest Leader and Non-Protest Leader was created by me. Images with protest Leader was lablled with a bounding box drawn around the protest leader using a manual annaotaing tool. 
+The dataset consist of 23,294 negative Images and 11,659 positive Images of Protest. This dataset was created by UCLA and is in their private repository. A new dataset consisting of 491 images of protest containg protest Leader and Non-Protest Leader was created. Images with protest Leader was lablled with a bounding box drawn around the protest leader using a manual annaotaing tool. 
 
 ### Dataset Statistics
 No. of images: 35,444
@@ -43,7 +43,7 @@ Since there was significant imbalance ine the dataset, various Image Augmentatio
 
 ## Models
 
-3 models were used for soving this multifold task.The 1st model was used to filter out the protest from non-protest image. The second model was used to predict the presence of visual attributes from Protest Images. Violence score was calculated from these weighted visual attributes. The 3rd model was used to predict the presence of a protest leader and if present was used to localize the protest leader by drawing a bounding box around him.
+3 CNN models were used for soving this multifold task.The 1st model was used to filter out the protest from non-protest image. The second model was used to predict the presence of visual attributes from Protest Images. Violence score was calculated from these weighted visual attributes. The 3rd model was used to predict the presence of a protest leader and if present was used to localize the protest leader by drawing a bounding box around him.
 
 ## Results
 
