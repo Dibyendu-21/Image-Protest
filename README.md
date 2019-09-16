@@ -1,6 +1,6 @@
 # Detection of Protest Leader and Perceived Violence Estimation from Social Media Images using Deep Learning
-Implementation of the model used in the paper Protest Activity Detection and Perceived Violence Estimation from Social Media Images
-(Springers) by Dibyendu Biswas, Jyoti Prakash Singh.
+Implementation of the model used in the paper **Protest Activity Detection and Perceived Violence Estimation from Social Media Images**
+(Springers) by [Dibyendu Biswas](https://github.com/Dibyendu-7), [Jyoti Prakash Singh](https://ieeexplore.ieee.org/author/38187001400).
 
 ## Table of Contents
 * [Motivation](#motivation)
