@@ -14,9 +14,9 @@ x= np.empty(len(att),dtype=int)
 print(x.dtype)
 x=np.array(att)
 print(x.shape)
-for j in range(0,len(x)):
-    for i in range(0,10):
-        x[j][i]=float(x[j][i])        
+for i in range(0,len(x)):
+    for j in range(0,10):
+        x[i][j]=float(x[i][j])        
 print(x.dtype)
 vio=df.loc[df['protest']==1,'violence']
 y=np.array(vio)
